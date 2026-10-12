@@ -1,18 +1,33 @@
-# Ruslanbes Vole
+# ruslanbes/vole (Homebrew tap)
 
-## How do I install these formulae?
+Homebrew tap for [vole](https://github.com/ruslanbes/vole) — a macOS CLI that records
+why each installed piece of software is there.
 
-`brew install ruslanbes/vole/<formula>`
+## Install
 
-Or `brew tap ruslanbes/vole` and then `brew install <formula>`.
+```sh
+brew install ruslanbes/vole/vole
+```
 
-Or, in a `brew bundle` `Brewfile`:
+Or:
 
-```ruby
-tap "ruslanbes/vole"
-brew "<formula>"
+```sh
+brew tap ruslanbes/vole
+brew install vole
+```
+
+Data lives in `~/.config/vole/` (created on first `vole scan`).
+
+## Upgrade
+
+After a new [vole release](https://github.com/ruslanbes/vole/releases), this tap’s
+formula is bumped; then:
+
+```sh
+brew update
+brew upgrade vole
 ```
 
 ## Documentation
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+See the [vole README](https://github.com/ruslanbes/vole#readme) and `brew help`.

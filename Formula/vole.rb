@@ -1,8 +1,8 @@
 class Vole < Formula
   desc "Record why each piece of software is installed on this Mac"
   homepage "https://github.com/ruslanbes/vole"
-  url "https://github.com/ruslanbes/vole/archive/refs/tags/v0.3.1.tar.gz"
-  sha256 "bc62c0bd5da02c056c54b7a400770573fb8abd8a394cb1321784e67b5ddcce04"
+  url "https://github.com/ruslanbes/vole/archive/refs/tags/v0.3.2.tar.gz"
+  sha256 "b7038808475848941798466bd35d55f6c78e8f93c652f1d27635224c08bc5342"
   license "Apache-2.0"
 
   depends_on :macos
